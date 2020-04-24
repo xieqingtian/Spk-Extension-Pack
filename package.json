@@ -4,7 +4,7 @@
     "description": "Extension pack for React development",
     "version": "0.0.1",
     "publisher": "xieqingtian",
-    "icon": "icon.png",
+    "icon": "logo.png",
     "license": "MIT",
     "repository": {
         "type": "git",
