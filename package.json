@@ -2,7 +2,7 @@
     "name": "spk-extension-pack",
     "displayName": "Spk Extension Pack",
     "description": "Extension pack for React development",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "xieqingtian",
     "icon": "logo.png",
     "license": "MIT",
@@ -27,9 +27,14 @@
         "clinyong.vscode-css-modules",
         "EditorConfig.EditorConfig",
         "dbaeumer.vscode-eslint",
-        "xabikos.JavaScriptSnippets",
         "esbenp.prettier-vscode",
         "stylelint.vscode-stylelint",
-        "Gruntfuggly.todo-tree"
+        "Gruntfuggly.todo-tree",
+        "xieqingtian.ts-react-snippets",
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint",
+        "zhuangtongfa.Material-theme",
+        "PKief.material-icon-theme",
+        "jpoissonnier.vscode-styled-components"
     ]
 }
