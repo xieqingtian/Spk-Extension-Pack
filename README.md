@@ -11,7 +11,6 @@ These are some of my favorite extensions to make React application development e
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&WT.mc_id=marketplace-pack-sdras)
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [CSS Modules](https://marketplace.visualstudio.com/items?itemName=clinyong.vscode-css-modules)
-- [Chinese (Simplified) Language Pack for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=MS-CEINTL.vscode-language-pack-zh-hans)
 - [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
 - [ts-react-snippets](https://marketplace.visualstudio.com/items?itemName=xieqingtian.ts-react-snippets)
@@ -20,9 +19,6 @@ These are some of my favorite extensions to make React application development e
 
 ```json
 {
-  "workbench.colorTheme": "One Dark Pro",
-  "editor.formatOnSave": true,
-  "terminal.integrated.shell.windows": "F:\\Git\\bin\\bash.exe",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -56,29 +52,66 @@ These are some of my favorite extensions to make React application development e
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  },
+  "todo-tree.general.tags": ["TODO", "FIXME", "XXX", "NOTE", "BUG", "HACK"],
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "black",
+    "type": "text"
+  },
   "todo-tree.highlights.customHighlight": {
-    "TODO": {
-      "icon": "tasklist",
-      "foreground": "white",
-      "background": "yellow",
-      "iconColour": "yellow",
-      "opacity": 0.6
-    },
     "FIXME": {
+      "icon": "flame",
+      "iconColour": "orange",
+      "background": "orange"
+    },
+    "TODO": {
+      "icon": "check",
+      "iconColour": "yellow",
+      "background": "yellow"
+    },
+    "BUG": {
       "icon": "bug",
-      "foreground": "white",
-      "iconColour": "#f5222d",
-      "background": "#f5222d",
-      "opacity": 0.6
+      "iconColour": "red",
+      "background": "red"
+    },
+    "NOTE": {
+      "icon": "note",
+      "iconColour": "blue",
+      "background": "blue"
+    },
+    "XXX": {
+      "icon": "question",
+      "iconColour": "green",
+      "background": "green"
     },
     "HACK": {
-      "icon": "rocket",
-      "foreground": "white",
-      "iconColour": "#40a9ff",
-      "background": "#40a9ff",
-      "opacity": 0.6
+      "icon": "alert",
+      "iconColour": "purple",
+      "background": "purple"
     }
   },
-  "todo-tree.filtering.excludedWorkspaces": ["node_modules/**/*"]
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash",
+      "path": ["C:\\Program Files\\Git\\bin\\bash.exe"],
+      "icon": "terminal-bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorCustomizations": {
+    "[Default Dark+]": {
+      "editor.background": "#000000",
+      "sideBar.background": "#000000"
+    }
+  }
 }
 ```

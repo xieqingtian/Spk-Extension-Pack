@@ -1,37 +1,36 @@
 {
-    "name": "spk-extension-pack",
-    "displayName": "Spk Extension Pack",
-    "description": "Extension pack for React development",
-    "version": "0.0.3",
-    "publisher": "xieqingtian",
-    "icon": "logo.png",
-    "license": "MIT",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/xieqingtian/Spk-Extension-Pack"
-    },
-    "bugs": {
-        "url": "https://github.com/xieqingtian/Spk-Extension-Pack/issues"
-    },
-    "engines": {
-        "vscode": "^1.44.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "galleryBanner": {
-        "color": "#fafafa",
-        "theme": "light"
-    },
-    "extensionPack": [
-        "MS-CEINTL.vscode-language-pack-zh-hans",
-        "clinyong.vscode-css-modules",
-        "EditorConfig.EditorConfig",
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode",
-        "stylelint.vscode-stylelint",
-        "Gruntfuggly.todo-tree",
-        "xieqingtian.ts-react-snippets",
-        "jpoissonnier.vscode-styled-components"
-    ]
+  "name": "infore-extension-pack",
+  "displayName": "Infore Extension Pack",
+  "description": "Extension pack for React development",
+  "version": "0.0.5",
+  "publisher": "xieqingtian",
+  "icon": "logo.png",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xieqingtian/Spk-Extension-Pack"
+  },
+  "bugs": {
+    "url": "https://github.com/xieqingtian/Spk-Extension-Pack/issues"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "galleryBanner": {
+    "color": "#fafafa",
+    "theme": "light"
+  },
+  "extensionPack": [
+    "clinyong.vscode-css-modules",
+    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "Gruntfuggly.todo-tree",
+    "xieqingtian.ts-react-snippets",
+    "jpoissonnier.vscode-styled-components"
+  ]
 }
